@@ -1,2 +1,1 @@
-# kubelogin-docker
-Docker image of https://github.com/int128/kubelogin
+You can check the builds on https://quay.io/repository/int128/kubelogin.
