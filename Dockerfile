@@ -1,7 +1,7 @@
-FROM alpine:3.12
+FROM alpine:3.13
 
-ARG KUBELOGIN_VERSION="v1.22.0"
-ARG KUBELOGIN_SHA256="4ce6e6d2f57e2b245bbd7700bd425dd655bae488dc995524a1e70ceda27e5ff9"
+ARG KUBELOGIN_VERSION="v1.22.1"
+ARG KUBELOGIN_SHA256="dfbc8a6535178f58c2d96bd8d1061d4688de8c83eb1cae9d0db687224ebc6726"
 
 # Download the release and test the checksum
 RUN wget -O /kubelogin.zip "https://github.com/int128/kubelogin/releases/download/$KUBELOGIN_VERSION/kubelogin_linux_amd64.zip" && \
